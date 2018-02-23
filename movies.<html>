@@ -77,12 +77,12 @@
  
 <tr>
     <td>Date of Birth</td>
-    <td align="center"><input type="text" name="dateofbirth" size="30" /></td>
+    <td align="center"><input type="text" name="dateofbirthwriter" size="30" /></td>
 </tr>
  
 <tr>
     <td>Won Oscar</td>
-    <td align="center"><input type="text" name="wonoscar" size="30"  /></td>
+    <td align="center"><input type="text" name="wonoscarwriter" size="30"  /></td>
 </tr>
  
 <tr>
@@ -108,12 +108,12 @@
  
 <tr>
     <td>Date of Birth</td>
-    <td align="center"><input type="text" name="dateofbirth" size="30" /></td>
+    <td align="center"><input type="text" name="dateofbirthdirector" size="30" /></td>
 </tr>
  
 <tr>
     <td>Won Oscar</td>
-    <td align="center"><input type="text" name="wonoscar" size="30"  /></td>
+    <td align="center"><input type="text" name="wonoscardirector" size="30"  /></td>
 </tr>
  
 <tr>
@@ -139,12 +139,12 @@
  
 <tr>
     <td>Date of Birth</td>
-    <td align="center"><input type="text" name="dateofbirth" size="30" /></td>
+    <td align="center"><input type="text" name="dateofbirthactor" size="30" /></td>
 </tr>
  
 <tr>
     <td>Won Oscar</td>
-    <td align="center"><input type="text" name="wonoscar" size="30"  /></td>
+    <td align="center"><input type="text" name="wonoscaractor" size="30"  /></td>
 </tr>
 
 <tr>
