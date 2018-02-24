@@ -1,0 +1,21 @@
+SELECT 
+leadactors.actorName,
+   movies.mName,
+   movies.mpaaRating,
+   directors.directorName,
+   writers.writerName,
+   genrename.genreName
+FROM directors
+JOIN movies
+JOIN leadactors
+JOIN writers
+JOIN genrename
+WHERE
+directors.wonOscar=0 and  
+   writers.wonOscar=0 and
+   leadactors.wonOscar=0 and
+   movies.wonBestPicture=0 and
+   movies.idmovies = genrename.idmovies and
+   movies.idmovies = directors.idmovies and
+   movies.idmovies = writers.idmovies and
+movies.idmovies = leadactors.idmovies;

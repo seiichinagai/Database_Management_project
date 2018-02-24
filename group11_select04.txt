@@ -1,0 +1,10 @@
+SELECT 
+movies.mName,
+   movies.mpaaRating,
+   directors.directorName
+FROM directors
+JOIN movies
+WHERE
+directors.wonOscar=1 and  
+   movies.wonBestPicture=1 and
+   movies.idmovies = directors.idmovies ;
