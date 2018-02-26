@@ -1,3 +1,5 @@
+<html>
+<body>
 <?php
 	// Movie Variables
 	$movieName = $_POST['moviename'];
@@ -25,4 +27,7 @@
 	$dobActor = $_POST['dateofbirthactor'];
 	$wonOscarActor = $_POST['wonoscaractor'];
 	$characterName = $_POST['charactername'];
+	echo "hello";
 ?>
+</body>
+</html>
