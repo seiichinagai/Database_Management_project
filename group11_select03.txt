@@ -1,0 +1,8 @@
+SELECT 
+   writers.writerName,
+   writers.DOB
+FROM writers
+WHERE
+writers.wonOscar=1
+GROUP BY writers.writerName
+HAVING writers.writerName>'S';

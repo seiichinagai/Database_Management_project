@@ -1,0 +1,8 @@
+SELECT DISTINCT
+   movies.mName
+FROM
+   movies 
+WHERE
+movies.mName like 't%'
+
+GROUP BY movies.mName;
